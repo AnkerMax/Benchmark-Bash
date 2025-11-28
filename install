@@ -1,10 +1,5 @@
 #!/bin/bash
 
-########################################################################################################
-# Phoronix Test Suite Installation Script
-# Setup mit vordefinierten Tests (CPU): coremark cachebench compress-7zip scimark2 openssl byte npb fftw
-########################################################################################################
-
 git clone https://github.com/phoronix-test-suite/phoronix-test-suite.git
 sudo apt-get update
 sudo apt-get install -y php-cli php-xml
